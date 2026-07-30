@@ -32,7 +32,7 @@ export default function WearGuardPageClient() {
     6: {
       rpm: 6,
       label: '6 RPM — LOW SPEED',
-      image: '/api/images/rpm-6',
+      image: '/images/rpm-6.png',
       veilDensity: '45%',
       retentionTime: '8.5 min',
       fuelSaved: '12%',
@@ -43,7 +43,7 @@ export default function WearGuardPageClient() {
     8: {
       rpm: 8,
       label: '8 RPM — OPTIMAL VEIL',
-      image: '/api/images/rpm-8',
+      image: '/images/rpm-8.png',
       veilDensity: '98%',
       retentionTime: '6.2 min',
       fuelSaved: '30%',
@@ -54,7 +54,7 @@ export default function WearGuardPageClient() {
     10: {
       rpm: 10,
       label: '10 RPM — HIGH VELOCITY',
-      image: '/api/images/rpm-10',
+      image: '/images/rpm-10.png',
       veilDensity: '88%',
       retentionTime: '5.0 min',
       fuelSaved: '24%',
@@ -65,7 +65,7 @@ export default function WearGuardPageClient() {
     12: {
       rpm: 12,
       label: '12 RPM — MAX SPEED',
-      image: '/api/images/rpm-12',
+      image: '/images/rpm-12.png',
       veilDensity: '75%',
       retentionTime: '4.1 min',
       fuelSaved: '18%',
@@ -89,7 +89,7 @@ export default function WearGuardPageClient() {
       {/* Hero Header */}
       <section className="py-12 sm:py-20 bg-ryetek-navy text-white border-b border-ryetek-cyan/30 text-center relative overflow-hidden">
         <div className="absolute inset-0 opacity-20 pointer-events-none">
-          <img src="/api/images/wearguard-callout" alt="" className="w-full h-full object-cover" />
+          <img src="/images/wearguard-callout.png" alt="" className="w-full h-full object-cover" />
         </div>
 
         <div className="max-w-4xl mx-auto px-5 relative z-10">
@@ -121,7 +121,7 @@ export default function WearGuardPageClient() {
         <div className="max-w-7xl mx-auto px-5 sm:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="bg-slate-900 border border-ryetek-border rounded-xl overflow-hidden shadow-z-card relative h-72 group">
-              <img src="/api/images/wearguard-parts" alt="WearGuard Castings & Liners" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+              <img src="/images/wearguard-parts.png" alt="WearGuard Castings & Liners" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
               <div className="absolute inset-0 bg-gradient-to-t from-ryetek-navy/85 via-transparent to-transparent" />
               <div className="absolute bottom-4 left-4 right-4 text-white">
                 <div className="font-mono text-xs text-ryetek-cyan font-bold uppercase">// 450+ HBW HIGH-CHROME CASTINGS</div>
@@ -130,7 +130,7 @@ export default function WearGuardPageClient() {
             </div>
 
             <div className="bg-slate-900 border border-ryetek-border rounded-xl overflow-hidden shadow-z-card relative h-72 group">
-              <img src="/api/images/wearguard-callout" alt="WearGuard Flighting Cross Section" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+              <img src="/images/wearguard-callout.png" alt="WearGuard Flighting Cross Section" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
               <div className="absolute inset-0 bg-gradient-to-t from-ryetek-navy/85 via-transparent to-transparent" />
               <div className="absolute bottom-4 left-4 right-4 text-white">
                 <div className="font-mono text-xs text-ryetek-cyan font-bold uppercase">// CFD FLIGHTING CURTAIN</div>

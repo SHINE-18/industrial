@@ -52,7 +52,7 @@ export default function HeroSection() {
           {/* HD Hero Image Banner Mobile */}
           <div className="relative w-full h-56 rounded-xl overflow-hidden border border-ryetek-border mb-6 shadow-z-card bg-slate-900">
             <img
-              src="/api/images/asphalt-plant"
+              src="/images/asphalt-plant.png"
               alt="Ryetek Asphalt Batching Plant HD"
               className="w-full h-full object-cover object-center"
             />
@@ -182,7 +182,7 @@ export default function HeroSection() {
               <div className="bg-white border-2 border-ryetek-navy rounded-2xl overflow-hidden shadow-2xl relative z-10 group">
                 <div className="relative w-full h-[460px] bg-slate-900 overflow-hidden">
                   <img
-                    src="/api/images/asphalt-plant"
+                    src="/images/asphalt-plant.png"
                     alt="Ryetek Asphalt Batching Plant Ultra HD Brochure Hero"
                     className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out"
                   />

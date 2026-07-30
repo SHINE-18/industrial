@@ -145,7 +145,7 @@ export default function WearGuardSection() {
           >
             <div className="relative rounded-2xl overflow-hidden border-2 border-ryetek-navy shadow-2xl bg-slate-900">
               <img
-                src="/api/images/wearguard-parts"
+                src="/images/wearguard-parts.png"
                 alt="WearGuard Flighting Render"
                 className="w-full h-[440px] object-cover object-center"
               />
